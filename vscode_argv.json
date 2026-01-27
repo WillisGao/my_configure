@@ -1,0 +1,29 @@
+// add setup by me
+// 1. create data dir base install dir, like as "D:\soft\VSCode\data"
+// 2. create link "D:\soft\VSCode\Code-local.exe" -> "D:\soft\VSCode\Code.exe --user-data-dir=D:\soft\VSCode\data"
+// 3. add Code-local.exe to windows start menu
+// 4. add settings.json configure file: "D:\soft\VSCode\data\user-data\User\settings.json"
+// 5. start vscode by double clenk Code-local.exe. 
+
+
+// This configuration file allows you to pass permanent command line arguments to VS Code.
+// Only a subset of arguments is currently supported to reduce the likelihood of breaking
+// the installation.
+//
+// PLEASE DO NOT CHANGE WITHOUT UNDERSTANDING THE IMPACT
+//
+// NOTE: Changing this file requires a restart of VS Code.
+{
+	// Use software rendering instead of hardware accelerated rendering.
+	// This can help in cases where you see rendering issues in VS Code.
+	// "disable-hardware-acceleration": true,
+
+	// Allows to disable crash reporting.
+	// Should restart the app if the value is changed.
+	"enable-crash-reporter": true,
+
+	// Unique id used for correlating crash reports sent from this instance.
+	// Do not edit this value.
+	"crash-reporter-id": "8fb5ac03-736a-492e-9876-dfd9137b8add",
+	"locale": "zh-cn"
+}
