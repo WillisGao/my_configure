@@ -1,0 +1,62 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "D:\\soft\\python-314;D:\\soft\\python-314\\Lib",
+        "PYTHONHOME": "D:\\soft\\python-314",
+        "GOROOT": "D:\\soft\\go",
+        "GOPATH": "D:\\prj_go\\go_tools",
+        "PATH": "D:\\soft\\python-314;D:\\soft\\go\\bin;D:\\prj_go\\go_tools\\bin;${env:PATH}",
+        "AAA": "aaa"
+    },
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "IPython": {
+            "path": ["D:\\project\\.venv\\Scripts\\ipython.exe"],
+            "args": []
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "JavaScript 调试终端",
+
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python": "D:\\soft\\python-314\\python.exe -u"
+    },
+    "code-runner.executorMapByFileExtension": {
+        ".py": "D:\\soft\\python-314\\python.exe"
+    },
+    "code-runner.executorMapByGlob": {
+        "pom.xml": "cd $dir && mvn clean package"
+    },
+    
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "cygwin64.root": "c:\\cygwin64",
+
+    "go.toolsManagement.autoUpdate": false,
+    "go.goroot": "D:\\soft\\go",
+    "go.gopath": "D:\\prj_go\\go_tools",
+    
+    "python-env.globalSearchPaths": [
+        "d:\\soft\\python-314"
+    ],
+    "python-envs.terminal.showActivateButton": true,
+    "python.createEnvironment.contentButton": "show",
+
+    "git.path": "D:\\soft\\git\\cmd\\git.exe",
+    "python.defaultInterpreterPath": "d:\\soft\\python-314\\python.exe"
+}
