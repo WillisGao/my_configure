@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "my workspace"
+		},
+		{
+			"path": "py1",
+			"name": "my py1"
+		},
+		{
+			"path": "py2",
+			"name": "my py2"
+		},
+		{
+			"path": "my_djg",
+			"name": "my djg",
+		},
+		{
+			"path": "my_flask",
+			"name": "my flask",
+		}
+	],
+	"settings": {
+		"__python.defaultInterpreterPath": "D:\\soft\\python-314\\python",
+		"python.defaultInterpreterPath": "${workspaceFolder:0}\\.venv\\Scripts\\python",
+		"python.terminal.activateEnvironment": true,
+		"python.analysis.extraPaths": [
+            "${workspaceFolder:0}\\py1",
+            "${workspaceFolder:0}\\py2",
+            "${workspaceFolder:0}\\my_djg",
+			"${workspaceFolder:0}\\my_flask"
+        ],
+		"python.venvPath": "${workspaceFolder:0}",
+		"python-envs.pythonProjects": [
+			{
+				"path": "",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip"
+			},
+			{
+				"path": "my_djg",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip",
+				"workspace": "my workspace"
+			},
+			{
+				"path": "my_flask",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip"
+			},
+			{
+				"path": "my_djg",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip",
+				"workspace": "my workspace"
+			}
+		]
+	}
+}
